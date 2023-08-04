@@ -1,0 +1,36 @@
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    background-color: blueviolet;
+    text-align: center;
+}
+#grid-boxes {
+    margin-top: 20px;
+}
+
+#grid-boxes .box {
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 0;
+}
+body ::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#grid-boxes .box img {
+    width: 70px;
+    height: 70px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-transform: capitalize;
+    text-align: center;
+    animation: infinite;
+}
